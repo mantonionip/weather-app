@@ -1,0 +1,148 @@
+* {
+	box-sizing: border-box;
+}
+input {
+	padding: 5px;
+	font-size: 12px;
+}
+
+.fs20 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.fb {
+	font-weight: bold;
+}
+input:focus {
+	outline: none !important;
+}
+.d-inbl {
+	display: inline-block;
+}
+.db {
+	display: block;
+}
+.padB10 {
+	padding-bottom: 10px;
+}
+
+.textCenter {
+	text-align: center;
+}
+.margin20 {
+	margin: 20px;
+}
+.padT5 {
+	padding-top: 5px;
+}
+.padL10 {
+	padding-left: 10px;
+}
+.marginT5 {
+	margin-top: 5px;
+}
+.marginT30 {
+	margin-top: 30px;
+}
+.filters {
+	width: 16%;
+	position: fixed;
+	height: 75vh;
+	background: cadetblue;
+	padding: 10px;
+	border-radius: 5px;
+}
+.flights {
+	width: 75%;
+	margin-left: 21%;
+}
+.dn {
+	display: none;
+}
+
+.error {
+	color: red;
+}
+.sort {
+	display: flex;
+	width: 90%;
+	justify-content: space-around;
+	margin: auto;
+}
+.card {
+	width: 90%;
+	border: 2px solid #8e5203;
+	padding: 20px;
+	background: antiquewhite;
+	margin: 15px auto;
+}
+
+#sorter {
+	background: burlywood;
+	padding: 5px 0px;
+	border-radius: 5px;
+}
+
+/*  */
+
+.suggestions {
+	text-align: left;
+	position: absolute;
+	top: 0px;
+}
+
+.suggestions div {
+	background: #f1f1f1;
+	padding: 10px;
+	width: 300px;
+	white-space: nowrap;
+	border-radius: 4px;
+	overflow: hidden;
+	box-shadow: 0px 4px 2px #fff;
+}
+
+.w50in {
+	display: inline-block;
+	width: 45%;
+}
+
+.suggestions div:hover {
+	cursor: pointer;
+	background: #c5c6c7;
+}
+
+.txtLeft {
+	text-align: left;
+}
+
+.posRel {
+	position: relative;
+}
+
+.wrap {
+	margin: 0px auto;
+	width: 700px;
+}
+
+#selectedCityInfo {
+	border-radius: 4px;
+	background: #f1f1f1;
+	padding: 10px;
+	width: 500px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#selectedCityInfo div {
+	margin: 15px 0px;
+}
+
+.btnWrap {
+	width: 500px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.red {
+	color: red;
+}
